@@ -32,4 +32,4 @@ app.post("/upload", upload.single("file"), function (req, res) {
   });
 });
 
-app.listen(process.env.PORT || 8000, () => console.log("Server is running"));
+app.listen(process.env.PORT || 8080, () => console.log("Server is running"));
